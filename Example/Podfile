@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XibKits_Example' do
+  pod 'XibKits', :path => '../'
+
+  target 'XibKits_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
