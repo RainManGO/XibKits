@@ -1,0 +1,16 @@
+PODS:
+  - XibKits (0.1.0)
+
+DEPENDENCIES:
+  - XibKits (from `../`)
+
+EXTERNAL SOURCES:
+  XibKits:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XibKits: 9c07cf079b84fc015eb3e3e15968bbd57214ee84
+
+PODFILE CHECKSUM: ca743641e7fc4fd02d3169e8f97129319b5957a7
+
+COCOAPODS: 1.7.5

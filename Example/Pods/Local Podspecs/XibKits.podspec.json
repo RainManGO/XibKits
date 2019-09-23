@@ -1,0 +1,22 @@
+{
+  "name": "XibKits",
+  "version": "0.1.0",
+  "summary": "A short description of XibKits.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/776210576@qq.com/XibKits",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "776210576@qq.com": "776210576@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/776210576@qq.com/XibKits.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XibKits/Classes/**/*"
+}
