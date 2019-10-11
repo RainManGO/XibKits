@@ -9,7 +9,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/XibKits.svg?style=flat)](https://cocoapods.org/pods/XibKits)
 
 ## Example
-
+<img src="https://github.com/RainManGO/XibKits/blob/master/demo.png" alt="demo"/>
+![image](https://github.com/RainManGO/XibKits/blob/master/xibviewDemo.gif)
+![image](https://github.com/RainManGO/XibKits/blob/master/XibButtonDemo.gif)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -22,6 +24,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'XibKits'
 ```
+## Usage
 
 ## Author
 
