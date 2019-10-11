@@ -3,7 +3,7 @@
 <img src="https://github.com/RainManGO/XibKits/blob/master/logo.png" alt="XibKits" title="XibKits" width="557"/>
 </p>
 
-[![CI Status](https://img.shields.io/travis/776210576@qq.com/XibKits.svg?style=flat)](https://travis-ci.org/776210576@qq.com/XibKits)
+<a href=""><img src="https://img.shields.io/badge/language-Swift%204-orange.svg"></a>
 [![Version](https://img.shields.io/cocoapods/v/XibKits.svg?style=flat)](https://cocoapods.org/pods/XibKits)
 [![License](https://img.shields.io/cocoapods/l/XibKits.svg?style=flat)](https://github.com/RainManGO/XibKits/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/XibKits.svg?style=flat)](https://cocoapods.org/pods/XibKits)
