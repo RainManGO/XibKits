@@ -5,7 +5,7 @@
 
 [![CI Status](https://img.shields.io/travis/776210576@qq.com/XibKits.svg?style=flat)](https://travis-ci.org/776210576@qq.com/XibKits)
 [![Version](https://img.shields.io/cocoapods/v/XibKits.svg?style=flat)](https://cocoapods.org/pods/XibKits)
-[![License](https://img.shields.io/cocoapods/l/XibKits.svg?style=flat)](https://cocoapods.org/pods/XibKits)
+[![License](https://img.shields.io/cocoapods/l/XibKits.svg?style=flat)](https://github.com/RainManGO/XibKits/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/XibKits.svg?style=flat)](https://cocoapods.org/pods/XibKits)
 
 ## Example
