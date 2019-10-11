@@ -1,3 +1,8 @@
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/onevcat/Kingfisher/master/images/logo.png" alt="Kingfisher" title="Kingfisher" width="557"/>
+</p>
+
 # XibKits
 
 [![CI Status](https://img.shields.io/travis/776210576@qq.com/XibKits.svg?style=flat)](https://travis-ci.org/776210576@qq.com/XibKits)
