@@ -12,8 +12,6 @@
 <p>
 <img src="https://github.com/RainManGO/XibKits/blob/master/demo.png" alt="demo" width="375" height= "667"/>
 </p>
-<img src="https://github.com/RainManGO/XibKits/blob/master/xibviewDemo.gif" alt="demo"/>
-<img src="https://github.com/RainManGO/XibKits/blob/master/XibButtonDemo.gif" alt="demo" />
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -34,6 +32,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'XibKits'
 ```
+## Usage
+<img src="https://github.com/RainManGO/XibKits/blob/master/xibviewDemo.gif" alt="demo"/>
 
 ## Author
 
