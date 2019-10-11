@@ -17,7 +17,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## 🌟 Features
+
+- [x] UIView cornerRaduis shadow
+- [x] UIButton border and raduis
+- [x] UIImageView raduis
+- [x] UITextFeild limitwords
+- [x] UITextView placeholder
+...
 
 ## Installation
 
