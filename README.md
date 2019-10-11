@@ -9,9 +9,12 @@
 [![Platform](https://img.shields.io/cocoapods/p/XibKits.svg?style=flat)](https://cocoapods.org/pods/XibKits)
 
 ## Example
-<img src="https://github.com/RainManGO/XibKits/blob/master/demo.png" alt="demo"/>
-![image](https://github.com/RainManGO/XibKits/blob/master/xibviewDemo.gif)
-![image](https://github.com/RainManGO/XibKits/blob/master/XibButtonDemo.gif)
+<p>
+<img src="https://github.com/RainManGO/XibKits/blob/master/demo.png" alt="demo" width="375" height= "667"/>
+<img src="https://github.com/RainManGO/XibKits/blob/master/xibviewDemo.gif" alt="demo" width="375" height= "667"/>
+<img src="https://github.com/RainManGO/XibKits/blob/master/XibButtonDemo.gif" alt="demo" width="375" height= "667"/>
+</p>
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
