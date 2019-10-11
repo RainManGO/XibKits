@@ -17,14 +17,13 @@ class XibButton: UIButton {
         }
     }
     
-    ///边框宽度
     @IBInspectable
     public var borderWidth:CGFloat = 1 {
         didSet {
             self.layer.borderWidth = borderWidth
         }
     }
-    ///边框颜色
+    
     @IBInspectable
     public var borderColor:UIColor = UIColor.clear{
         didSet {
