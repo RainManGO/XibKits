@@ -43,16 +43,16 @@
 /* Begin PBXFileReference section */
 		02165FD8C64D5B99DB0D2E3693B82A25 /* Pods-XibKits_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibKits_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		07F4BC9E950D9E7DF1B1731958604B41 /* Pods-XibKits_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibKits_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0845AA05BBA0800AFC734D63262D0CFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0845AA05BBA0800AFC734D63262D0CFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F7CBABF50F063674AD41490A081FA3D /* XibButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibButton.swift; path = XibKits/Classes/XibButton.swift; sourceTree = "<group>"; };
-		1F8E530A106C58B62CDF982B6AB81206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F8E530A106C58B62CDF982B6AB81206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		22389DD24B597219FF217236E3033F7F /* Pods-XibKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		22957DA642F0CD7E2BDD152E3193491C /* Pods-XibKits_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibKits_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24A2F68390479A0FADF8E9CD2E388D10 /* Pods-XibKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XibKits_Tests-umbrella.h"; sourceTree = "<group>"; };
 		29D593A809DD16ADF7963ED18138A9BF /* Pods-XibKits_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XibKits_Example-dummy.m"; sourceTree = "<group>"; };
-		2AEE9F0CE75B5F5D257880D2A2A264AA /* XibKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XibKits.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2AEE9F0CE75B5F5D257880D2A2A264AA /* XibKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XibKits.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		2C9A3BF9F524504B31E5C83355DD5CD0 /* XibKits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XibKits-dummy.m"; sourceTree = "<group>"; };
-		2FE184EDA6FB625F0D701D001916B8B7 /* XibKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XibKits.framework; path = XibKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE184EDA6FB625F0D701D001916B8B7 /* XibKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XibKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		305DF337F836BF9FF5B330656582F667 /* Pods-XibKits_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XibKits_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34ADA734B9E53C41479F0E2C9D52A78F /* XibTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibTextView.swift; path = XibKits/Classes/XibTextView.swift; sourceTree = "<group>"; };
@@ -67,14 +67,14 @@
 		8B4B5599D8FC434703C0017D1E28D48D /* XibKits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibKits-prefix.pch"; sourceTree = "<group>"; };
 		931467D40F81D2D5EBC4EAA285DE96DE /* XibKits.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XibKits.xcconfig; sourceTree = "<group>"; };
 		96CF6C27F45FB1EFBA794B78BF787BEC /* XibKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XibKits.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5C3986CF6524E614E4CE3FC33102BC /* Pods_XibKits_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibKits_Example.framework; path = "Pods-XibKits_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5C3986CF6524E614E4CE3FC33102BC /* Pods_XibKits_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibKits_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F4B23C8E097EF93739AF20F75BE8B4 /* XibKits-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XibKits-Info.plist"; sourceTree = "<group>"; };
 		A78E6B2C6CF3EE0CBD8D58138066E799 /* Pods-XibKits_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibKits_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C97BC6804D1F9539D8528F01EDDC24C4 /* Pods-XibKits_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XibKits_Example.modulemap"; sourceTree = "<group>"; };
 		D521250156F56F1CA0771DAA04E2B07C /* XibImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibImageView.swift; path = XibKits/Classes/XibImageView.swift; sourceTree = "<group>"; };
 		D8DA5691C136ABE67D79FD910C1EAC8D /* Pods-XibKits_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibKits_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB1C3EA69E767593B047775C60CE17E2 /* Pods_XibKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibKits_Tests.framework; path = "Pods-XibKits_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1C3EA69E767593B047775C60CE17E2 /* Pods_XibKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED64A7210685C27B4F19B8E10ABEDDD /* Pods-XibKits_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibKits_Tests-Info.plist"; sourceTree = "<group>"; };
 		FC57075BE8E2F292A7E087C9EEB280FE /* XibKits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibKits-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -604,8 +604,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
