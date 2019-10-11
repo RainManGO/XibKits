@@ -27,11 +27,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'XibKits'
 ```
-## Usage
 
 ## Author
 
-776210576@qq.com, 776210576@qq.com
+zy, 776210576@qq.com
 
 ## License
 
