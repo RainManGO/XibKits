@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/onevcat/Kingfisher/master/images/logo.png" alt="Kingfisher" title="Kingfisher" width="557"/>
+<img src="https://github.com/RainManGO/XibKits/blob/master/logo.png" alt="XibKits" title="XibKits" width="557"/>
 </p>
 
 # XibKits
