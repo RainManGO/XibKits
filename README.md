@@ -35,3 +35,7 @@ zy, 776210576@qq.com
 ## License
 
 XibKits is available under the MIT license. See the LICENSE file for more info.
+
+## Wishes
+
+You can add more xib in your work，build toghter
