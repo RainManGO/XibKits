@@ -97,7 +97,6 @@ class XibView: UIView {
         }
         
         if shadowRadius > 0 {
-            //绘制阴影
             let shadowPath = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: cornerRadius, height: cornerRadius))
             
             let context = UIGraphicsGetCurrentContext()
@@ -106,9 +105,7 @@ class XibView: UIView {
             shadowPath.fill()
         }
         
-        //绘制mask
         let maskPath = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: cornerRadius, height: cornerRadius))
-        
         let maskLayer = CAShapeLayer()
         maskLayer.path = maskPath.cgPath
         maskLayer.frame = rect
