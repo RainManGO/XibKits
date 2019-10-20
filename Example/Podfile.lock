@@ -1,5 +1,7 @@
 PODS:
-  - XibKits (0.1.0)
+  - XibKits (0.1.0):
+    - XibKits/Core (= 0.1.0)
+  - XibKits/Core (0.1.0)
 
 DEPENDENCIES:
   - XibKits (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XibKits: 9c07cf079b84fc015eb3e3e15968bbd57214ee84
+  XibKits: 16aa99065d514ecae1e37fe6d6718b30e574dd5c
 
 PODFILE CHECKSUM: ca743641e7fc4fd02d3169e8f97129319b5957a7
 

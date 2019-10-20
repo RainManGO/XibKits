@@ -9,18 +9,19 @@
 /* Begin PBXBuildFile section */
 		140D55369AFC91BCDE7BCDABA2CC3F58 /* Pods-XibKits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48001BBC6982B2F46C79B6C1F80BAC38 /* Pods-XibKits_Tests-dummy.m */; };
 		453947E58B09B915D6774300D57ED254 /* Pods-XibKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A2F68390479A0FADF8E9CD2E388D10 /* Pods-XibKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		672D63B53017DEDF28FDB7891BDDE86B /* XibImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D521250156F56F1CA0771DAA04E2B07C /* XibImageView.swift */; };
 		67DC8FA62D2C2A4FCC727FD748D194DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		799B50A41145D09D1205BA1980D16417 /* XibTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADA734B9E53C41479F0E2C9D52A78F /* XibTextView.swift */; };
 		7D9B7C2C636141A02FB0FFD5D6A85B61 /* Pods-XibKits_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB57A2E514159E41E7071F8ACFC13C8 /* Pods-XibKits_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9028BF5EA3C17B89153A249315D98F48 /* XibKits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57075BE8E2F292A7E087C9EEB280FE /* XibKits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1EFD4F9CDC160511739191761ABD3B /* XibTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD59B5BD27350D075DBB5A5CD169B7 /* XibTextView.swift */; };
 		A8A5598CE81F9356E75FA98DB0748AB4 /* Pods-XibKits_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D593A809DD16ADF7963ED18138A9BF /* Pods-XibKits_Example-dummy.m */; };
-		B5635902F82A75A268A3F19E35E9699E /* XibTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBF4884BBFCB9CAFEA5B5A7763F10F /* XibTextField.swift */; };
+		ADE46F9BC3183E03662161AECAD311A8 /* XibKits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D775152A36E3C1A938710687D2E008EE /* XibKits-dummy.m */; };
+		B09948C3F718F5AB302F8E7CF221041A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B5D60DF87CCBD3C9BA81AD05BF8EF9CC /* XibKits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C18C9ABF9C019FA92642E0C24A89ED /* XibKits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C460E0CC2D5568EF4BF9C1148C9961B8 /* XibTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67BC89DC8212E219A1764BEF573FB8A /* XibTextField.swift */; };
+		CB86358246220C31AC57F97EF3633808 /* XibLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EE4E2D74090EECA402DAA12D1B529D /* XibLabel.swift */; };
 		D73F190DE5B50A82B2D6EF2D03319D7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DEBB3E5B835326C04F57B0AF034EE865 /* XibKits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A3BF9F524504B31E5C83355DD5CD0 /* XibKits-dummy.m */; };
-		EB3B9E7EC96D67DD97B3AF8D9E0461EC /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCE3F44AF19761CF14B72B4E8EE32E /* XibView.swift */; };
-		F0B080087B2FB6490DD32C9D7A21EB07 /* XibButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CBABF50F063674AD41490A081FA3D /* XibButton.swift */; };
-		F4C629F552D9C141A1E6FFC7F67507AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D82FA7BBEDB139EAD58628F76BDAA3B0 /* XibImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEEBF1FC8B3D2D56609983D60704631 /* XibImageView.swift */; };
+		EA1F95B3B34A619EF2ED2374819A54D3 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6ECB8E452D5AD86F5C1C39467D3AB9 /* XibView.swift */; };
+		F2F6EBC8B18E98B4E789F20730DEB3E0 /* XibButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A84B1493DB69915455685BD6FDBF7 /* XibButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,56 +44,57 @@
 /* Begin PBXFileReference section */
 		02165FD8C64D5B99DB0D2E3693B82A25 /* Pods-XibKits_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibKits_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		07F4BC9E950D9E7DF1B1731958604B41 /* Pods-XibKits_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibKits_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0845AA05BBA0800AFC734D63262D0CFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1F7CBABF50F063674AD41490A081FA3D /* XibButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibButton.swift; path = XibKits/Classes/XibButton.swift; sourceTree = "<group>"; };
-		1F8E530A106C58B62CDF982B6AB81206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A64E935016F64C64CD4C1B16A6DC6DE /* XibKits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibKits-prefix.pch"; sourceTree = "<group>"; };
+		0F6ECB8E452D5AD86F5C1C39467D3AB9 /* XibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibView.swift; path = XibKits/Classes/Core/XibView.swift; sourceTree = "<group>"; };
+		12C18C9ABF9C019FA92642E0C24A89ED /* XibKits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibKits-umbrella.h"; sourceTree = "<group>"; };
+		151206B8B16C3FAFA55BE80317C5AA7D /* XibKits.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XibKits.xcconfig; sourceTree = "<group>"; };
 		22389DD24B597219FF217236E3033F7F /* Pods-XibKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		22957DA642F0CD7E2BDD152E3193491C /* Pods-XibKits_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibKits_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24A2F68390479A0FADF8E9CD2E388D10 /* Pods-XibKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XibKits_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28EE779C81CBFA309456AB518FA6CC70 /* XibKits-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XibKits-Info.plist"; sourceTree = "<group>"; };
 		29D593A809DD16ADF7963ED18138A9BF /* Pods-XibKits_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XibKits_Example-dummy.m"; sourceTree = "<group>"; };
-		2AEE9F0CE75B5F5D257880D2A2A264AA /* XibKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XibKits.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		2C9A3BF9F524504B31E5C83355DD5CD0 /* XibKits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XibKits-dummy.m"; sourceTree = "<group>"; };
-		2FE184EDA6FB625F0D701D001916B8B7 /* XibKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XibKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE184EDA6FB625F0D701D001916B8B7 /* XibKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XibKits.framework; path = XibKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		305DF337F836BF9FF5B330656582F667 /* Pods-XibKits_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XibKits_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34ADA734B9E53C41479F0E2C9D52A78F /* XibTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibTextView.swift; path = XibKits/Classes/XibTextView.swift; sourceTree = "<group>"; };
+		37EE4E2D74090EECA402DAA12D1B529D /* XibLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibLabel.swift; path = XibKits/Classes/Core/XibLabel.swift; sourceTree = "<group>"; };
 		3C8C0FCAF3AD0E9199667F764DED9613 /* Pods-XibKits_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibKits_Example-Info.plist"; sourceTree = "<group>"; };
 		3CB57A2E514159E41E7071F8ACFC13C8 /* Pods-XibKits_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XibKits_Example-umbrella.h"; sourceTree = "<group>"; };
-		47BBF4884BBFCB9CAFEA5B5A7763F10F /* XibTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibTextField.swift; path = XibKits/Classes/XibTextField.swift; sourceTree = "<group>"; };
 		48001BBC6982B2F46C79B6C1F80BAC38 /* Pods-XibKits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XibKits_Tests-dummy.m"; sourceTree = "<group>"; };
-		4DCCE3F44AF19761CF14B72B4E8EE32E /* XibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibView.swift; path = XibKits/Classes/XibView.swift; sourceTree = "<group>"; };
 		5399CBC85EE1005DBD63FEF2CA3A043F /* Pods-XibKits_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibKits_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		596D830218FBECC03A09B7C9F8EED491 /* Pods-XibKits_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XibKits_Tests.modulemap"; sourceTree = "<group>"; };
+		5EEEBF1FC8B3D2D56609983D60704631 /* XibImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibImageView.swift; path = XibKits/Classes/Core/XibImageView.swift; sourceTree = "<group>"; };
 		81576A2547925CBD8A30BE23AEB895FD /* Pods-XibKits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibKits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8B4B5599D8FC434703C0017D1E28D48D /* XibKits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibKits-prefix.pch"; sourceTree = "<group>"; };
-		931467D40F81D2D5EBC4EAA285DE96DE /* XibKits.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XibKits.xcconfig; sourceTree = "<group>"; };
-		96CF6C27F45FB1EFBA794B78BF787BEC /* XibKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XibKits.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5C3986CF6524E614E4CE3FC33102BC /* Pods_XibKits_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibKits_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0F4B23C8E097EF93739AF20F75BE8B4 /* XibKits-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XibKits-Info.plist"; sourceTree = "<group>"; };
+		9179FA051398478ADE290F2596E0C9EE /* XibKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XibKits.modulemap; sourceTree = "<group>"; };
+		92A84611CAAF515BBD3851BEA0607646 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9990AD1B4649513B397E54CEBAA26D82 /* XibKits.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XibKits.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5C3986CF6524E614E4CE3FC33102BC /* Pods_XibKits_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibKits_Example.framework; path = "Pods-XibKits_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78E6B2C6CF3EE0CBD8D58138066E799 /* Pods-XibKits_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibKits_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C76A84B1493DB69915455685BD6FDBF7 /* XibButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibButton.swift; path = XibKits/Classes/Core/XibButton.swift; sourceTree = "<group>"; };
 		C97BC6804D1F9539D8528F01EDDC24C4 /* Pods-XibKits_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XibKits_Example.modulemap"; sourceTree = "<group>"; };
-		D521250156F56F1CA0771DAA04E2B07C /* XibImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibImageView.swift; path = XibKits/Classes/XibImageView.swift; sourceTree = "<group>"; };
+		CA10E143912D060C97E4B568D409E197 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5DD59B5BD27350D075DBB5A5CD169B7 /* XibTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibTextView.swift; path = XibKits/Classes/Core/XibTextView.swift; sourceTree = "<group>"; };
+		D775152A36E3C1A938710687D2E008EE /* XibKits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XibKits-dummy.m"; sourceTree = "<group>"; };
 		D8DA5691C136ABE67D79FD910C1EAC8D /* Pods-XibKits_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibKits_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB1C3EA69E767593B047775C60CE17E2 /* Pods_XibKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibKits_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1C3EA69E767593B047775C60CE17E2 /* Pods_XibKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibKits_Tests.framework; path = "Pods-XibKits_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED64A7210685C27B4F19B8E10ABEDDD /* Pods-XibKits_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibKits_Tests-Info.plist"; sourceTree = "<group>"; };
-		FC57075BE8E2F292A7E087C9EEB280FE /* XibKits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibKits-umbrella.h"; sourceTree = "<group>"; };
+		F67BC89DC8212E219A1764BEF573FB8A /* XibTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibTextField.swift; path = XibKits/Classes/Core/XibTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B022600431A3E752D190F5319395353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09948C3F718F5AB302F8E7CF221041A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F124D48DC8872EAA1CE8829F02AA335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D73F190DE5B50A82B2D6EF2D03319D7D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		614EEF6DEB1EDBF4DD6E5132217571D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4C629F552D9C141A1E6FFC7F67507AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,18 +125,36 @@
 			path = "Target Support Files/Pods-XibKits_Tests";
 			sourceTree = "<group>";
 		};
-		3C2CF03FA12AB42C58BA1FD417EBE58C /* Support Files */ = {
+		4DA7FA525A9CE847C5376A8D6260A3DF /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				96CF6C27F45FB1EFBA794B78BF787BEC /* XibKits.modulemap */,
-				931467D40F81D2D5EBC4EAA285DE96DE /* XibKits.xcconfig */,
-				2C9A3BF9F524504B31E5C83355DD5CD0 /* XibKits-dummy.m */,
-				A0F4B23C8E097EF93739AF20F75BE8B4 /* XibKits-Info.plist */,
-				8B4B5599D8FC434703C0017D1E28D48D /* XibKits-prefix.pch */,
-				FC57075BE8E2F292A7E087C9EEB280FE /* XibKits-umbrella.h */,
+				C76A84B1493DB69915455685BD6FDBF7 /* XibButton.swift */,
+				5EEEBF1FC8B3D2D56609983D60704631 /* XibImageView.swift */,
+				37EE4E2D74090EECA402DAA12D1B529D /* XibLabel.swift */,
+				F67BC89DC8212E219A1764BEF573FB8A /* XibTextField.swift */,
+				D5DD59B5BD27350D075DBB5A5CD169B7 /* XibTextView.swift */,
+				0F6ECB8E452D5AD86F5C1C39467D3AB9 /* XibView.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XibKits";
+			name = Core;
+			sourceTree = "<group>";
+		};
+		54FDEDE23F06C0879F418F0B6202CCDE /* XibKits */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7FA525A9CE847C5376A8D6260A3DF /* Core */,
+				A8F5F18D6DA31D8CB30D46F182D08FEA /* Pod */,
+				82F4A67640B8D6EA8884D2917A56C0CF /* Support Files */,
+			);
+			name = XibKits;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		700F0D0A7EF7F35945B72D1BDBC01398 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54FDEDE23F06C0879F418F0B6202CCDE /* XibKits */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		723BCCCBB83C3DA48D2E808A75DC626C /* Products */ = {
@@ -147,6 +167,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		82F4A67640B8D6EA8884D2917A56C0CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9179FA051398478ADE290F2596E0C9EE /* XibKits.modulemap */,
+				151206B8B16C3FAFA55BE80317C5AA7D /* XibKits.xcconfig */,
+				D775152A36E3C1A938710687D2E008EE /* XibKits-dummy.m */,
+				28EE779C81CBFA309456AB518FA6CC70 /* XibKits-Info.plist */,
+				0A64E935016F64C64CD4C1B16A6DC6DE /* XibKits-prefix.pch */,
+				12C18C9ABF9C019FA92642E0C24A89ED /* XibKits-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XibKits";
+			sourceTree = "<group>";
+		};
 		967662E6C51F9775EEDA1C1789B8753C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,12 +190,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B6EBF82290229E2F2521918A013DCB7D /* Pod */ = {
+		A8F5F18D6DA31D8CB30D46F182D08FEA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1F8E530A106C58B62CDF982B6AB81206 /* LICENSE */,
-				0845AA05BBA0800AFC734D63262D0CFD /* README.md */,
-				2AEE9F0CE75B5F5D257880D2A2A264AA /* XibKits.podspec */,
+				92A84611CAAF515BBD3851BEA0607646 /* LICENSE */,
+				CA10E143912D060C97E4B568D409E197 /* README.md */,
+				9990AD1B4649513B397E54CEBAA26D82 /* XibKits.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -195,7 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F5132B38F5ADB35C69B87A2346ECC061 /* Development Pods */,
+				700F0D0A7EF7F35945B72D1BDBC01398 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				723BCCCBB83C3DA48D2E808A75DC626C /* Products */,
 				967662E6C51F9775EEDA1C1789B8753C /* Targets Support Files */,
@@ -210,32 +244,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D73D4C850A31B9E1F4BB59F5C22215BC /* XibKits */ = {
-			isa = PBXGroup;
-			children = (
-				1F7CBABF50F063674AD41490A081FA3D /* XibButton.swift */,
-				D521250156F56F1CA0771DAA04E2B07C /* XibImageView.swift */,
-				47BBF4884BBFCB9CAFEA5B5A7763F10F /* XibTextField.swift */,
-				34ADA734B9E53C41479F0E2C9D52A78F /* XibTextView.swift */,
-				4DCCE3F44AF19761CF14B72B4E8EE32E /* XibView.swift */,
-				B6EBF82290229E2F2521918A013DCB7D /* Pod */,
-				3C2CF03FA12AB42C58BA1FD417EBE58C /* Support Files */,
-			);
-			name = XibKits;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F5132B38F5ADB35C69B87A2346ECC061 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D73D4C850A31B9E1F4BB59F5C22215BC /* XibKits */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		007FE45C45F144527137BEE39B5DF24F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D60DF87CCBD3C9BA81AD05BF8EF9CC /* XibKits-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CBBB48574B6C0D9BFEE4694961B5E37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,14 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D9B7C2C636141A02FB0FFD5D6A85B61 /* Pods-XibKits_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1B8E49571DA410E1B299406F1ABD927 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9028BF5EA3C17B89153A249315D98F48 /* XibKits-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +314,12 @@
 		};
 		795232D3687EA7AFB0B86C0BD8C6D6BA /* XibKits */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C989EA421049FFCFD4BE87DE62DD3EC0 /* Build configuration list for PBXNativeTarget "XibKits" */;
+			buildConfigurationList = E4DA600B30D92D6D92175A1A7BB2FFE4 /* Build configuration list for PBXNativeTarget "XibKits" */;
 			buildPhases = (
-				F1B8E49571DA410E1B299406F1ABD927 /* Headers */,
-				88E13A4BB2FA2652289D97E14B0B3CD0 /* Sources */,
-				614EEF6DEB1EDBF4DD6E5132217571D0 /* Frameworks */,
-				C0A4B2D25BBB38CA1A245CEBB0247F6E /* Resources */,
+				007FE45C45F144527137BEE39B5DF24F /* Headers */,
+				F5184FA10A4FFAB25497A11D94E5A84C /* Sources */,
+				0B022600431A3E752D190F5319395353 /* Frameworks */,
+				A81D048FD0D22ADBDE0B44C0E3EB9E2F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -355,7 +366,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0A4B2D25BBB38CA1A245CEBB0247F6E /* Resources */ = {
+		A81D048FD0D22ADBDE0B44C0E3EB9E2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,24 +383,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		88E13A4BB2FA2652289D97E14B0B3CD0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0B080087B2FB6490DD32C9D7A21EB07 /* XibButton.swift in Sources */,
-				672D63B53017DEDF28FDB7891BDDE86B /* XibImageView.swift in Sources */,
-				DEBB3E5B835326C04F57B0AF034EE865 /* XibKits-dummy.m in Sources */,
-				B5635902F82A75A268A3F19E35E9699E /* XibTextField.swift in Sources */,
-				799B50A41145D09D1205BA1980D16417 /* XibTextView.swift in Sources */,
-				EB3B9E7EC96D67DD97B3AF8D9E0461EC /* XibView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9755491899F767960EEE408EEF2ABF96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				140D55369AFC91BCDE7BCDABA2CC3F58 /* Pods-XibKits_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5184FA10A4FFAB25497A11D94E5A84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F6EBC8B18E98B4E789F20730DEB3E0 /* XibButton.swift in Sources */,
+				D82FA7BBEDB139EAD58628F76BDAA3B0 /* XibImageView.swift in Sources */,
+				ADE46F9BC3183E03662161AECAD311A8 /* XibKits-dummy.m in Sources */,
+				CB86358246220C31AC57F97EF3633808 /* XibLabel.swift in Sources */,
+				C460E0CC2D5568EF4BF9C1148C9961B8 /* XibTextField.swift in Sources */,
+				9F1EFD4F9CDC160511739191761ABD3B /* XibTextView.swift in Sources */,
+				EA1F95B3B34A619EF2ED2374819A54D3 /* XibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,9 +532,9 @@
 			};
 			name = Release;
 		};
-		AD0C4D9D7AFE3D6ACCE77FD451317671 /* Debug */ = {
+		92620887C8F7A6FEC8636768A491557E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 931467D40F81D2D5EBC4EAA285DE96DE /* XibKits.xcconfig */;
+			baseConfigurationReference = 151206B8B16C3FAFA55BE80317C5AA7D /* XibKits.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -604,7 +616,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -674,9 +687,9 @@
 			};
 			name = Debug;
 		};
-		C5FFA1D974460C29CFD7F2F205B1CCF2 /* Release */ = {
+		D30D556105D137009E586456CD619A77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 931467D40F81D2D5EBC4EAA285DE96DE /* XibKits.xcconfig */;
+			baseConfigurationReference = 151206B8B16C3FAFA55BE80317C5AA7D /* XibKits.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -769,11 +782,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C989EA421049FFCFD4BE87DE62DD3EC0 /* Build configuration list for PBXNativeTarget "XibKits" */ = {
+		E4DA600B30D92D6D92175A1A7BB2FFE4 /* Build configuration list for PBXNativeTarget "XibKits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD0C4D9D7AFE3D6ACCE77FD451317671 /* Debug */,
-				C5FFA1D974460C29CFD7F2F205B1CCF2 /* Release */,
+				92620887C8F7A6FEC8636768A491557E /* Debug */,
+				D30D556105D137009E586456CD619A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

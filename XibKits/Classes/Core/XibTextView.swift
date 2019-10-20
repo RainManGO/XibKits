@@ -10,6 +10,28 @@ import UIKit
 @IBDesignable
 open class XibTextView: UITextView {
     
+    //圆角弧度
+    @IBInspectable public var radius:CGFloat = 8 {
+        didSet {
+            self.layer.cornerRadius = radius
+        }
+    }
+    
+    ///边框宽度
+    @IBInspectable
+    public var borderWidth:CGFloat = 1 {
+        didSet {
+            self.layer.borderWidth = borderWidth
+        }
+    }
+    ///边框颜色
+    @IBInspectable
+    public var borderColor:UIColor = UIColor.clear{
+        didSet {
+            self.layer.borderColor = borderColor.cgColor
+        }
+    }
+    
     private struct Constants {
         static let defaultiOSPlaceholderColor = UIColor(red: 0.0, green: 0.0, blue: 0.0980392, alpha: 0.22)
     }

@@ -29,14 +29,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'XibKits/Classes/**/*'
+  s.default_subspec = "Core"
   
-  # s.resource_bundles = {
-  #   'XibKits' => ['XibKits/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec "Core" do |ss|
+    ss.source_files  = "XibKits/Classes/Core/**/*"
+  end
+  
+  s.subspec "Component" do |ss|
+    ss.source_files  = "XibKits/Classes/Component/**/*"
+    ss.dependency "Gallery"
+  end
 end
