@@ -11,7 +11,7 @@
 
 ## Example
 <p>
-<img src="https://github.com/RainManGO/XibKits/blob/master/demo.png" alt="demo" width="375" height= "667"/>
+<img src="WeChat9ac756c56b1f424eec44ab98fbea2492.png" alt="demo"/>
 </p>
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,7 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## 🌟 Features
 
 - [x] UIView cornerRaduis shadow
-- [x] UIButton border and raduis
+- [x] UIButton border & raduis & badge
 - [x] UIImageView raduis
 - [x] UITextFeild limitwords
 - [x] UITextView placeholder
